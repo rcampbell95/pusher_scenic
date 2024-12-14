@@ -1,0 +1,24 @@
+[project]
+name = "pusher_scenic"
+version = "3.0.0"
+description = "Pusher using Scenic and SB3."
+authors = [
+	{ name = "Roberto Campbell" }
+]
+maintainers = [
+	{ name = "Roberto Campbell", email = "rcampbe2@ucsc.edu" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+classifiers = [
+	"Operating System :: OS Independent",
+	"Development Status :: 5 - Production/Stable",
+	"License :: OSI Approved :: BSD License",
+	"Programming Language :: Python :: 3",
+]
+
+dependencies = [
+	"scenic",
+	"stable-baselines3"
+]
